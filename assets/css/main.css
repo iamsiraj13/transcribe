@@ -5,13 +5,6 @@
     margin: 0;
     outline: none;
 }
-
-header{
-    height:100px;
-    width:100%;
-    background-color: #fff;
-}
-
 body{
     font-family: 'Open Sans', sans-serif;
 }
@@ -61,6 +54,13 @@ a:hover{
     padding:10px 25px;
     font-weight: 400;
 
+}
+
+/*
+* header area
+*/
+.logo img{
+    width:160px;
 }
 
 /*  slide area */
