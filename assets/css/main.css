@@ -114,7 +114,9 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
 .benefit__img img{
     width:100%;
 }
-
+.benefit__info{
+    margin-left: 30px;
+}
 .benefit__info__title{
     font-weight: 700;
     color:#49326e;
