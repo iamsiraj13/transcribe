@@ -1,5 +1,5 @@
 @media screen and (max-width: 480px) {
-    
+    /* slider */
     .slide__heading h2{
         font-size: 30px !important;
         line-height: 30px;
@@ -12,6 +12,27 @@
     }
     .slider-area .swiper{
         padding:50px 0 !important;
+    }
+
+    /* rate */
+
+    .rate-title{
+        padding: 0 0;
+    }
+
+    /* benefits */
+
+    .benefits-title{
+        width:100% !important;
+    }
+    .benefits{
+        padding:0;
+    }    
+    .benefit__img{
+        margin-bottom: 30px;
+    }
+    .benefit__card{
+        padding:20px;
     }
 
   }
