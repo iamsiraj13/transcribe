@@ -1,0 +1,17 @@
+@media screen and (max-width: 480px) {
+    
+    .slide__heading h2{
+        font-size: 30px !important;
+        line-height: 30px;
+    }
+    .slide__desc {
+        padding:0 0 !important;
+    }
+    .slide{
+        padding:0 30px;
+    }
+    .slider-area .swiper{
+        padding:50px 0 !important;
+    }
+
+  }
