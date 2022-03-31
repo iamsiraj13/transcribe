@@ -4,6 +4,7 @@
   padding: 0;
   margin: 0;
   outline: none;
+  box-sizing: border-box;
 }
 body {
   font-family: "Open Sans", sans-serif;
@@ -182,11 +183,7 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
 .onboard-title{
   margin-bottom: 30px !important;
 }
-
-.container {
-  width: 1200px;
-  margin: auto;
-}
+ 
 
 .timeline {
   position: relative;

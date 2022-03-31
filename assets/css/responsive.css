@@ -52,13 +52,18 @@
         display:none;
     }
 
+    /* writer */
+
+    .writer-img{
+        width:100%;
+    }
+
     /* about */
     .about-area .about-title h3{
         font-size: 30px; 
     }
     .about-title{
         padding:0 0 !important;
-    }
-
+    } 
 
   }
