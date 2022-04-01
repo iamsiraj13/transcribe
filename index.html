@@ -72,7 +72,7 @@
 
   <body>
     <!-- header start -->
-     <header class="header-area">
+     <header class="header-area sticky">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
           <a class="navbar-brand logo" href="#">
@@ -92,25 +92,22 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Rates</a>
+                <a class="nav-link" aria-current="page" href="#">Rates</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Benefits</a>
+                <a class="nav-link" href="#benefit">Benefits</a>
               </li> 
               <li class="nav-item">
-                <a class="nav-link" href="#">Onboard</a>
+                <a class="nav-link" href="#onboard">Onboard</a>
+              </li>  
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
               </li> 
               <li class="nav-item">
-                <a class="nav-link" href="#">Process</a>
+                <a class="nav-link" href="#testimonial">Testimonials</a>
               </li> 
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li> 
-              <li class="nav-item">
-                <a class="nav-link" href="#">Testimonials</a>
-              </li> 
-              <li class="nav-item">
-                <a class="nav-link" href="#">FAQs</a>
+                <a class="nav-link" href="#faq">FAQs</a>
               </li> 
             </ul> 
           </div>
@@ -171,7 +168,7 @@
     <!-- banner slider end -->
 
     <!-- rates start -->
- <section class="rates-area" data-aos="fade-down"> 
+ <section class="rates-area" id="rate" data-aos="fade-down"> 
       <div class="container">
         <div class="rate-title text-center">
           <h3>THE RATES FOR OUR ONLINE WRITING JOBS ARE THE BEST YOU’LL FIND IN THE INDUSTRY.</h3>
@@ -202,9 +199,9 @@
     <!-- rates end -->
 
     <!-- benefits area start -->
-   <section class="benefits-area">
-      <div class="container px-50">
-        <div class="benefits-title text-center text-light mx-auto">
+   <section class="benefits-area" id="benefit">
+      <div class="container">
+        <div class="benefits-title text-center text-light">
           <h3 data-aos="fade-down">
             The Benefits You’ll Enjoy Working With Writer’s Thrive.
           </h3>
@@ -470,7 +467,7 @@
     <!-- benefits area end -->
 
     <!-- onboard process area start -->
-  <section class="onboard-area" data-aos="fade-up">
+  <section class="onboard-area" id="onboard" data-aos="fade-up">
       <div class="container">
         <div class="onboard-title text-center ">
           <h3>Our Onboarding Process</h3>
@@ -496,7 +493,7 @@
     <!-- onboard process area end -->
 
     <!-- about area start  -->
-    <section class="about-area">
+    <section class="about-area" id="about">
       <div class="container">
         <div class="about-title text-center">
           <h3>About Writer’s Thrive</h3>
@@ -517,7 +514,7 @@
     <!-- about area end -->
 
     <!-- writers value area start -->
-     <section class="writer-area">
+     <section class="writer-area" id="writer">
       <div class="container">
         <div class="writer-title" data-aos="fade-up">
           <h3>About Writer’s Thrive</h3>
@@ -572,7 +569,7 @@
 
     <!-- testimonials area start  -->
 
-   <section class="testimonial-area">
+   <section class="testimonial-area" id="testimonial">
       <div class="container">
         <div class="testimonial-title">
           <div class="row d-flex align-items-center" data-aos="fade-up">
@@ -623,7 +620,7 @@
     <!-- testimonials area end -->
 
     <!-- faq area start -->
-    <section class="faq-area" data-aos="fade-up">
+    <section class="faq-area" id="faq" data-aos="fade-up">
       <div class="container">
         <div class="faq-title">
           <h3>Frequently Asked Questions.</h3>
@@ -757,7 +754,7 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script> 
-
+    <script src="./assets/js/vanillajs-scrollspy.min.js"></script>
     <!-- Initialize Swiper -->
     <script>
       var swiper = new Swiper(".mySwiper", {
@@ -776,7 +773,8 @@
       });
 
       AOS.init();
-
+      var menu = document.querySelector('.header-area');
+    scrollSpy(menu);
 
  
 

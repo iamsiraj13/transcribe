@@ -8,8 +8,9 @@
 }
 body {
   font-family: "Open Sans", sans-serif;
+  width:100%;
 }
-
+ 
 h2 {
   font-size: 45px;
   color: #fff;
@@ -66,16 +67,28 @@ a:hover {
 * header area
 */
 .logo img {
-  width: 160px;
+  width: 230px;
+} 
+.header-area{
+  position:fixed;
+  width:100%;
+  top:0;
+  z-index:99;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.header-area ul li a.active{
+  color:#000;
 }
 
 /*  slide area */
 
 .slider-area {
   background-color: #6d86c7 !important;
+  margin-top: 83px;
 }
 .slide {
-  width: 1045px;
+  /* width: 1045px; */
+  width:100%;
   cursor: pointer;
 }
 .slide .slide__desc {
