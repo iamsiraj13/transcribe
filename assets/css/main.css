@@ -35,6 +35,9 @@ p {
   color: #fff;
   line-height: 28px;
 }
+a{
+  text-decoration: none;
+}
 .grey {
   color: #676767;
 }
@@ -53,6 +56,10 @@ a:hover {
   font-size: 18px;
   padding: 10px 25px;
   font-weight: 400;
+  text-decoration: none;
+}
+.t-btn:hover{
+  color:#fff;
 }
 
 /*
@@ -323,6 +330,12 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
   font-weight: 400;
   font-style: italic;
   font-size:16px;
+}
+.autho-info{
+  text-align:left;
+}
+.author-quote{
+  text-align: left;
 }
 
 /*

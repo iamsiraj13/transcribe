@@ -1,4 +1,6 @@
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 520px) {
+
+   
     /* slider */
     .slide__heading h2{
         font-size: 30px !important;
@@ -37,6 +39,10 @@
 
     /* timeline */
 
+    .timeline{
+        padding: 0;
+        margin: 0;
+    }
     .timeline li{
         float:none;
         width:100%;
@@ -53,9 +59,17 @@
     }
 
     /* writer */
-
+    .writer-content{
+        padding:0 10px;
+    }
     .writer-img{
         width:100%;
+    }
+
+
+    .timeline li span {
+ 
+        left: 48%;
     }
 
     /* about */
@@ -65,5 +79,43 @@
     .about-title{
         padding:0 0 !important;
     } 
+
+  }
+
+  @media screen and (min-width:481px) and (max-width: 767px) {
+   .rate-title{
+       padding: 0;
+   }
+   .benefits-title{
+       width:100%;
+   }
+   .benefits{
+       padding:0;
+   }
+   .benefit__img{
+       margin-bottom: 30px;
+   }
+
+   .timeline li{
+       width:50%;
+       margin-bottom: 30px;
+   }
+
+   .timeline li:after {
+    content: "";
+    display:none;
+}
+
+.timeline li span::after {
+    content: "";
+    display:none;
+}
+
+
+  }
+
+
+  @media screen and  (min-width: 768px) and (max-width:991){
+
 
   }
