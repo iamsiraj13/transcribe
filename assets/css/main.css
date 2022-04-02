@@ -10,6 +10,7 @@ body {
   font-family: "Open Sans", sans-serif;
   width:100%;
   overflow-x: hidden;
+  position:relative;
 }
  
 h2 {
@@ -92,13 +93,12 @@ a:hover {
   background-color: #6d86c7 !important;
   margin-top: 83px;
 }
-.slide {
-  /* width: 1045px; */
+.slide { 
   width:100%;
   cursor: pointer;
 }
 .slide .slide__desc {
-  padding: 0 140px;
+  padding: 0 140px !important;
   margin: 20px 0;
   line-height: 28px;
 }
